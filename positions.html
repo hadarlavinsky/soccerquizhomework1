@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Positions | Pitchside</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">⚽ Pitchside</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="positions.html" class="active">Positions</a></li>
+          <li><a href="history.html">World Cup History</a></li>
+          <li><a href="quiz.html">Trivia Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Positions Explained</h2>
+      <p>Click on a player marker to learn about that position.</p>
+
+      <div class="pitch-wrap">
+        <div class="pitch" id="pitch">
+          <!-- markers are placed with JS-friendly data attributes -->
+          <div class="player-dot" style="top: 92%; left: 50%;" data-position="goalkeeper">GK</div>
+
+          <div class="player-dot" style="top: 76%; left: 20%;" data-position="fullback">LB</div>
+          <div class="player-dot" style="top: 80%; left: 38%;" data-position="centerback">CB</div>
+          <div class="player-dot" style="top: 80%; left: 62%;" data-position="centerback">CB</div>
+          <div class="player-dot" style="top: 76%; left: 80%;" data-position="fullback">RB</div>
+
+          <div class="player-dot" style="top: 55%; left: 30%;" data-position="midfielder">CM</div>
+          <div class="player-dot" style="top: 60%; left: 50%;" data-position="midfielder">CDM</div>
+          <div class="player-dot" style="top: 55%; left: 70%;" data-position="midfielder">CM</div>
+
+          <div class="player-dot" style="top: 22%; left: 15%;" data-position="winger">LW</div>
+          <div class="player-dot" style="top: 15%; left: 50%;" data-position="striker">ST</div>
+          <div class="player-dot" style="top: 22%; left: 85%;" data-position="winger">RW</div>
+        </div>
+
+        <div class="position-info" id="position-info">
+          <h3>Pick a position</h3>
+          <p>Click any marker on the pitch to see what that role does during a match.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by Hadar Lavinsky &middot; A static website project for "AI Assisted Development of Products and Services"</p>
+  </footer>
+
+  <script src="js/positions.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trivia Quiz | Pitchside</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">⚽ Pitchside</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="positions.html">Positions</a></li>
+          <li><a href="history.html">World Cup History</a></li>
+          <li><a href="quiz.html" class="active">Trivia Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Soccer Trivia Quiz</h2>
+      <p id="quiz-score">Score: 0 / 0</p>
+
+      <div id="quiz-card">
+        <p id="quiz-question">Loading question...</p>
+        <div id="quiz-options"></div>
+        <p id="quiz-feedback"></p>
+        <button id="next-btn" class="primary-btn" disabled>Next Question</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by Hadar Lavinsky &middot; A static website project for "AI Assisted Development of Products and Services"</p>
+  </footer>
+
+  <script src="js/quiz.js"></script>
+</body>
+</html>
